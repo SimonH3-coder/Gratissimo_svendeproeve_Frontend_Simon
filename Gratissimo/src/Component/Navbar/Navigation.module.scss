@@ -1,0 +1,25 @@
+@use '../../globals.scss' as globals;
+
+.navbarstyle {
+    background-color: globals.$color-accent-red;
+}
+     ul { display: flex;
+        gap: 14px;
+        justify-content: start;
+        margin: 32px;
+        color: globals.$color-white;
+        
+        li {
+            list-style-type: none;
+           
+            a {
+                text-decoration: none;
+                
+}
+        }
+        div {
+            display: flex;
+            justify-content: end;
+            
+        }
+    }
