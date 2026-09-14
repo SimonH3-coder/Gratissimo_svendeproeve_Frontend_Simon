@@ -1,0 +1,31 @@
+// Front
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$color-main-red: #AB0E0E;
+$color-accent-red: #8B0808;
+$color-white: #F9F9F9;
+$color-alt-white: #F5EEEC;
+$color-black: #111111;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+i,
+a 
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+// TODO:
+// ADD SPACING RULES
+// ADD FONT WEIGHTS
+// ADD FONT SIZES
+
+
