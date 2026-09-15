@@ -1,5 +1,19 @@
 @use '../../globals.scss' as globals;
 
+
+ .headerImagestyle {
+    background-color: globals.$color-main-red;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+ }
+    figure {
+        img {
+            width: 15vw;
+        }
+    }
+
+
 .navbarstyle {
     background-color: globals.$color-accent-red;
 }

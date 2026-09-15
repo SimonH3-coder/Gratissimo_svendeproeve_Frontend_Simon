@@ -1,7 +1,18 @@
 import { NavLink } from 'react-router'
 import style from "./Navigation.module.scss"
+import logowhite from '../../assets/logo/logo-white.png'
 export function Navigation () {
     return (
+        <>
+        <figure className={style.headerImagestyle}>
+                <NavLink to="index">
+                    <img src= {logowhite} alt= "logowhite" />
+                    </NavLink>
+               
+            
+        
+        
+            </figure>
         <nav className={style.navbarstyle}>
             <ul>
                 <li>
@@ -27,6 +38,12 @@ export function Navigation () {
             </ul>
 
         </nav>
+        
+        
+        
+        
+        </>
+        
 
     )
 

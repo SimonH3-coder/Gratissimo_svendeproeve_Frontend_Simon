@@ -1,15 +1,16 @@
-import logowhite from '../../assets/logo/logo-white.png'
+import { NavLink } from 'react-router'
 import style from './Header.module.scss'
 export function Header () {
     return (
     <>
-    <figure className={style.headerImagestyle}>
-        <img src= {logowhite} alt= "logowhite" />
-       
+    <h4>Vi hjælper dig på vej til dit næste frivillige job</h4>
+    <button><NavLink to="login">Log ind </NavLink>
+    eller
+    <NavLink to="profil">opret dig</NavLink>
+
     
-
-
-    </figure>
+    </button>
+ 
     
     </>
     )

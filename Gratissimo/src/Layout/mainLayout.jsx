@@ -6,8 +6,8 @@ import { Footer } from '../Component/Footer/footer'
 export function MainLayout () {
     return (
     <>
+    < Navigation />
      < Header/>
-     < Navigation />
     < Outlet/>
     < Footer />
     
