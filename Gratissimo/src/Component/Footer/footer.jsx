@@ -6,7 +6,7 @@ import LinkedInCircled from '../../assets/icons/SoMe/LinkedInCircled.png'
 import style from './Footer.module.scss'
 export function Footer () {
     return (
-        <footer className={style.footerstyle}>
+        <footer className={style.footerstyling}>
             <section>
                 <h3>For jobsøgere</h3>
                 <NavLink>Din kundeside</NavLink>

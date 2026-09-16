@@ -1,0 +1,84 @@
+@use "../../globals.scss" as globals;
+
+.footerstyling {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: globals.$color-main-red;
+    gap: 80px;
+    padding: 28px 10%;
+    margin-top: auto;
+    color: globals.$color-white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+h3 {
+    margin: 0 0 22px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+// p {
+//     max-width: 280px;
+//      margin: 0 0 4px;
+//     font-size: 16px;
+//     color: globals.$color-white;
+// }
+
+a {
+    margin: 3px;
+    color: globals.$color-white;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+form {
+    display: flex;
+    width: 305px;
+    margin-top: 10px;
+}
+
+form input [ type= "email"],
+form input [type= "text"] {
+    flex: 1;
+    min-width: 0;
+    height: 25px;
+    padding: 0 8px;
+    border: none;
+    background-color:globals.$color-white ;
+}
+form input [type="submit"] {
+    height: 28px;
+    padding: 0 12px;
+    border: none;
+    color: globals.$color-white;
+    background-color: globals.$color-accent-red ;
+    cursor: pointer;
+}
+
+       form input[type="submit"]:hover {
+        background-color: darken(globals.$color-accent-red, 8%);
+    }
+
+
+@media (max-width: 700px) {
+    .footerstyling {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 28px 8%;
+    }
+
+    .footerstyling form {
+        width: 100%;
+        max-width: 305px;
+    }
+
+
+
+    }
