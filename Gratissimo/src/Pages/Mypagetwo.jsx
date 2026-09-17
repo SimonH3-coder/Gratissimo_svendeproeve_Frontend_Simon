@@ -1,9 +1,9 @@
-import { Redigeringformular } from '../Component/Redigeringformular/redigeringsformular'
 import { NavLink } from 'react-router'
+import { Registeringsformular } from '../Component/Registeringformular/registeringformular'
 
-export function Mypage () {
+export function Mypagetwo () {
     return (
-    <>
+        <>
         <h1>Mypage</h1>
         <header>
             <h1>Velkommen Peter</h1>
@@ -13,9 +13,11 @@ export function Mypage () {
             <NavLink to={"/login"}>Log ud</NavLink>
             <NavLink to={"/mypage"}>Min side</NavLink>
         </header>
-        <Redigeringformular/>
+        <Registeringsformular/>
 
-    </>
+        
+        
+        </>
+     
     )
-   
 }

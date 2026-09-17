@@ -1,5 +1,5 @@
 import { useFetch } from "../../Hooks/useFetch"
-import { useParams, NavLink } from "react-router"
+
 
 
 const API_URL = "http://localhost:4000";
@@ -11,9 +11,9 @@ const {data, loading, error } = useFetch (`${API_URL}/api/job-categories`)
 
 
 
-  if (loading) return <p>Henter holddetaljer...</p>;
-  if (error) return <p>Der kom en fejl ved hentning af holdet.</p>;
-  if (!data || Object.keys(data).length === 0) return <p>Ingen hold kom frem.</p>;
+  if (loading) return <p>Henter Katogerier infomationer...</p>;
+  if (error) return <p>Der kom en fejl ved hentning af kategorier.</p>;
+  if (!data || Object.keys(data).length === 0) return <p>Ingen kategorier kom frem.</p>;
 
   return (
     

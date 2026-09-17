@@ -23,18 +23,18 @@ h3 {
     font-weight: 500;
 }
 
-// p {
-//     max-width: 280px;
-//      margin: 0 0 4px;
-//     font-size: 16px;
-//     color: globals.$color-white;
-// }
+ p {
+     max-width: 280px;
+      margin: 0 0 4px;
+    font-size: 16px;
+    // color: globals.$color-white;
+ }
 
 a {
     margin: 3px;
-    color: globals.$color-white;
+    // color: globals.$color-white;
     font-size: 16px;
-    text-decoration: underline;
+     text-decoration: underline;
 
 }
 
@@ -62,9 +62,7 @@ form input [type="submit"] {
     cursor: pointer;
 }
 
-       form input[type="submit"]:hover {
-        background-color: darken(globals.$color-accent-red, 8%);
-    }
+     
 
 
 @media (max-width: 700px) {

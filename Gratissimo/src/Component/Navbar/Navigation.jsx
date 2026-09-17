@@ -26,7 +26,7 @@ export function Navigation () {
                 </li>
                 <div>
                      <li>
-                    <NavLink to={"profil"}>Opret profil</NavLink>
+                    <NavLink to={"profil"}>Opret profil |</NavLink>
                 </li>
                 <li>
                     <NavLink to={"login"}>Log ind</NavLink>
